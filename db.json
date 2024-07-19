@@ -1,0 +1,19 @@
+{
+  "companies": [
+    {
+      "id": "0",
+      "company": "Wal-Mart",
+      "symbol": "wmt"
+    },
+    {
+      "id": "1",
+      "company": "Apple",
+      "symbol": "aapl"
+    },
+    {
+      "id": "2",
+      "company": "Amazon",
+      "symbol": "amzn"
+    }
+  ]
+}

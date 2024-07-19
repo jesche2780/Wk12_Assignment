@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House App</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Company and Coordinating Stock Market Symbols</title>
 </head>
-<body class="container">
-    <div id="new-house" class="jumbotrong">
-        <h2>New House</h2>
-        <input type="text" id="new-house-name">
+
+<body>
+    <div class="m-3">
+        <h2>List of companies with corresponding stock market symbols.</h2>
+        <form>
+            <h4>New Company</h4>
+            <label class="form-label">Company</label>
+            <input id="company-input" type="text" class="form-control" />
+            <label class="form-label">Symbol</label>
+            <input id="symbol-input" type="text" class="form-control" />
+            <button class="btn btn-success mt-3" onclick="createCompany(event)">Create</button>
+        </form>
+        <div id="companies-container" style="padding: 25px;"></div>
     </div>
-    
-    
+    <script src="index.js"></script>
 </body>
+
 </html>
+
+<!-- Setup shell HTML that provides the titles, basic divs, and the starting button and forms that will not change dynamically with the page.-->
